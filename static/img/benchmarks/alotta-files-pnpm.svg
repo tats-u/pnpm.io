@@ -11,7 +11,7 @@
   <rect x="0" y="0" width="300" height="83" fill="#fff"></rect>
   <circle cx="44" cy="6" r="4" fill="#fbae00"></circle>
   <text x="44" y="14" class="font s4" text-anchor="middle">pnpm</text>
-  <text x="44" y="18" class="font s3" text-anchor="middle">v11.5.0</text>
+  <text x="44" y="18" class="font s3" text-anchor="middle">v11.5.2</text>
   <circle cx="60" cy="6" r="4" fill="#fbae00"></circle>
   <text x="60" y="14" class="font s4" text-anchor="middle">pnpm 🦀</text>
   <text x="60" y="18" class="font s3" text-anchor="middle">v12</text>
@@ -33,15 +33,15 @@
   <text x="290" y="28" class="font s5 text" text-anchor="middle">10</text>
   <text x="290" y="74" class="font s5 text" text-anchor="middle">10</text>
   <text x="290" y="20" class="font s4 text" font-style="italic" text-anchor="end">Installation time in seconds (lower is better)</text>
-  <rect x="40" y="35" width="57" height="6" fill="#fbae00" rx="1" ry="1"></rect>
+  <rect x="40" y="35" width="53" height="6" fill="#fbae00" rx="1" ry="1"></rect>
   <rect x="40" y="41.5" width="15" height="6" fill="#fbae00" rx="1" ry="1"></rect>
   <text x="57" y="44.5" class="font" font-size="7" dominant-baseline="central">🦀</text>
-  <rect x="40" y="52" width="225" height="6" fill="#fbae00" rx="1" ry="1"></rect>
-  <rect x="40" y="58.5" width="85" height="6" fill="#fbae00" rx="1" ry="1"></rect>
-  <text x="127" y="61.5" class="font" font-size="7" dominant-baseline="central">🦀</text>
+  <rect x="40" y="52" width="163" height="6" fill="#fbae00" rx="1" ry="1"></rect>
+  <rect x="40" y="58.5" width="60" height="6" fill="#fbae00" rx="1" ry="1"></rect>
+  <text x="102" y="61.5" class="font" font-size="7" dominant-baseline="central">🦀</text>
   <line x1="40" y1="31" x2="40" y2="69" class="line"></line>
   <text x="38" y="42.5" class="font s4" dominant-baseline="middle" text-anchor="end">with cache</text>
   <text x="38" y="46.5" class="font s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
   <text x="38" y="61.5" class="font s4" dominant-baseline="middle" text-anchor="end">with lockfile</text>
-  <text x="290" y="81" class="font s4 text" text-anchor="end">Tests were run using Node.js v24.16.0 at: May 31, 2026, 3:54 AM</text>
+  <text x="290" y="81" class="font s4 text" text-anchor="end">Tests were run using Node.js v24.16.0 at: Jun 7, 2026, 3:53 AM</text>
 </svg>
