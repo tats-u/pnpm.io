@@ -1,6 +1,6 @@
 # Benchmarks of JavaScript Package Managers
 
-**Last benchmarked at**: _Jun 7, 2026, 3:53 AM_ (_daily_ updated).
+**Last benchmarked at**: _Jun 14, 2026, 3:53 AM_ (_daily_ updated).
 
 This benchmark compares the performance of npm, pnpm, Yarn Classic, and Yarn PnP (check [Yarn's benchmarks](https://yarnpkg.com/benchmarks) for any other Yarn modes that are not included here).
 
@@ -22,17 +22,17 @@ The app's `package.json` [here](https://github.com/pnpm/pnpm.io/blob/main/benchm
 
 | action  | cache | lockfile | node_modules| npm | pnpm | [pnpm 🦀](https://github.com/pnpm/pacquet) | Yarn | Yarn PnP |
 | ---     | ---   | ---      | ---         | --- | --- | --- | --- | --- |
-| install |   |   |   | 28.2s | 7.3s | n/a | 8s | 3.4s |
-| install | ✔ | ✔ | ✔ | 1.2s | 478ms | n/a | 5.5s | n/a |
-| install | ✔ | ✔ |   | 8.7s | 2.1s | 633ms | 5.8s | 1.3s |
-| install | ✔ |   |   | 13.3s | 4s | n/a | 8s | 2.9s |
-| install |   | ✔ |   | 11.8s | 6.4s | 2.4s | 5.9s | 1.3s |
-| install | ✔ |   | ✔ | 1.6s | 2.8s | n/a | 7.7s | n/a |
-| install |   | ✔ | ✔ | 1.2s | 473ms | n/a | 5.5s | n/a |
-| install |   |   | ✔ | 1.6s | 3.2s | n/a | 7.7s | n/a |
-| update | n/a | n/a | n/a | 6.4s | 7.3s | n/a | 6.3s | 2.9s |
+| install |   |   |   | 38.8s | 7.1s | n/a | 8s | 3.4s |
+| install | ✔ | ✔ | ✔ | 1.4s | 517ms | n/a | 5.5s | n/a |
+| install | ✔ | ✔ |   | 10.3s | 2.3s | 617ms | 5.8s | 1.3s |
+| install | ✔ |   |   | 15s | 4.1s | n/a | 8s | 2.9s |
+| install |   | ✔ |   | 13.5s | 6.3s | 1.9s | 5.9s | 1.3s |
+| install | ✔ |   | ✔ | 1.9s | 570ms | n/a | 7.7s | n/a |
+| install |   | ✔ | ✔ | 1.4s | 531ms | n/a | 5.5s | n/a |
+| install |   |   | ✔ | 1.9s | 592ms | n/a | 7.7s | n/a |
+| update | n/a | n/a | n/a | 8.5s | 7.5s | n/a | 6.3s | 2.9s |
 
-<img alt="Graph of the alotta-files results" src="/img/benchmarks/alotta-files.svg?v=0f276fa0" />
+<img alt="Graph of the alotta-files results" src="/img/benchmarks/alotta-files.svg?v=12cee997" />
 
 ### pnpm vs pnpm 🦀
 
@@ -40,7 +40,7 @@ pnpm v12 will use a new installation engine for fetching and linking written in 
 
 | action  | cache | lockfile | node_modules| pnpm | [pnpm 🦀](https://github.com/pnpm/pacquet) |
 | ---     | ---   | ---      | ---         | --- | --- |
-| install | ✔ | ✔ |   | 2.1s | 633ms |
-| install |   | ✔ |   | 6.4s | 2.4s |
+| install | ✔ | ✔ |   | 2.3s | 617ms |
+| install |   | ✔ |   | 6.3s | 1.9s |
 
-<img alt="Graph comparing pnpm versions on the alotta-files fixture" src="/img/benchmarks/alotta-files-pnpm.svg?v=058a18ba" />
+<img alt="Graph comparing pnpm versions on the alotta-files fixture" src="/img/benchmarks/alotta-files-pnpm.svg?v=ed6bc14c" />
